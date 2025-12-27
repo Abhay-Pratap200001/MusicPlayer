@@ -17,9 +17,9 @@ const FaeturedCourses = () => {
     (course: Course) => course.isFeatured
   );
   return (
-    <div className="py-12 bg-gray-900">
+    <div className="py-12 pr-6 pl-6 bg-gray-900">
       <div>
-        <div className="text-center">
+        <div className="text-center ">
           <h2 className="test-base text-teal-500 font-semibold tracking-wide uppercase">
             FAETURED COURSES
           </h2>
@@ -31,7 +31,7 @@ const FaeturedCourses = () => {
       </div>
 
       <div className="mt-10 text-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-center">
           {featuredCourse.map((course: Course) => (
             <div key={course.id} className="flex justify-center">
               <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-max-s w-screen]">
@@ -54,10 +54,10 @@ const FaeturedCourses = () => {
       <div className="mt-20 text-center">
         <Link
           href={"/courses"}
-          className="px-4 py-2 tracking-tighter font-semibold rounded-md border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
-        >
+          className="px-4 py-2 tracking-tighter font-semibold rounded-md border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200">
           View All Courses
         </Link>
+        
       </div>
     </div>
   );
