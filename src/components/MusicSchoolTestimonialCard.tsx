@@ -39,7 +39,7 @@ const musicSchoolTestimonials = [
 
 const MusicSchoolTestimonialCard = () => {
   return (
-    <div className="relative h-[30rem] w-full overflow-hidden bg-white dark:bg-black flex flex-col items-center justify-center">
+    <div className="relative h-[40rem] w-full overflow-hidden bg-white dark:bg-black flex flex-col items-center justify-center">
 
       {/* Grid Background */}
       <div
