@@ -54,7 +54,7 @@ const FaeturedCourses = () => {
       <div className="mt-20 text-center">
         <Link
           href={"/courses"}
-          className="px-4 py-2 tracking-tighter font-semibold rounded-md border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200">
+          className="px-2 py-2.5 font-semibold rounded-md border tracking-tighter border-neutral-300 text-neutral-900 bg-slate-400 hover:bg-slate-100 transition duration-200">
           View All Courses
         </Link>
         
